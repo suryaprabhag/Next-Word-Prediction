@@ -12,6 +12,20 @@ This project demonstrates NLP preprocessing, tokenization, sequence generation, 
 
 ---
 
+## 🚀 Live Application
+
+Try the interactive Next Word Prediction LSTM app:
+
+**Streamlit Live Demo:** https://wordpredict-lstm.streamlit.app/
+
+Enter a partial sentence to get Top-5 next-word
+predictions with their probabilities.
+
+**Validation Performance:**
+- Top-1 Accuracy: 13.92%
+- Top-5 Accuracy: 29.87%
+
+
 ## 📌 Project Overview
 
 Next Word Prediction is a Natural Language Processing (NLP) task that predicts the most probable next word based on previously entered text.
@@ -279,11 +293,11 @@ An interactive Streamlit application was developed to demonstrate next-word pred
 
 **Next-Word Suggestions**
 
-![Next Word Predictions](screenshots/next_word_predictions.png)
+![Next Word Predictions](screenshots/FirstNextWordPredictionGeneration.png)
 
 **Text Generation**
 
-![Text Generation](screenshots/text_generation.png)
+![Text Generation](screenshots/SecondNextWordPredictionGeneration.png)
 
 ## 📂 Project Structure
 
