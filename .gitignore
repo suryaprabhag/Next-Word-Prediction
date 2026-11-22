@@ -1,0 +1,74 @@
+
+# ===================================
+# Python
+# ===================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# ===================================
+# Virtual Environments
+# ===================================
+.venv/
+venv/
+env/
+ENV/
+
+# ===================================
+# Environment Variables / Secrets
+# ===================================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# ===================================
+# Jupyter Notebook
+# ===================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===================================
+# IDE / Editor
+# ===================================
+.vscode/
+.idea/
+
+# ===================================
+# Operating System
+# ===================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===================================
+# Logs / Temporary Files
+# ===================================
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+
+# ===================================
+# TensorFlow / Training Files
+# ===================================
+logs/
+tensorboard/
+checkpoints/
+*.h5
+*.hdf5
+*.ckpt
+*.ckpt.index
+*.ckpt.data-*
+
+# ===================================
+# Build Artifacts
+# ===================================
+build/
+dist/

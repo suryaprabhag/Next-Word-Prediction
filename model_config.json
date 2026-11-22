@@ -1,0 +1,7 @@
+{
+  "vocab_size": 2299,
+  "context_length": 20,
+  "embedding_dim": 64,
+  "lstm_units": 128,
+  "dropout_rate": 0.3
+}
